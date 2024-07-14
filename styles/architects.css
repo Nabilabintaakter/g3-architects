@@ -158,6 +158,8 @@ main > section{
 
 /* responsive media query */
 
+/* for mobile devices */
+
 @media screen and (max-width:576px) {
     .navbar, 
     .nav-links,
@@ -180,4 +182,18 @@ main > section{
     .feature-description{
         text-align: justify;
     }
+}
+
+
+
+/* for medium devices */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .teams{
+        flex-direction: column;
+    }
+    .our-features {
+        margin: 50px auto;
+    }
+    
 }

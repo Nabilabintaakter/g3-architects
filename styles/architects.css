@@ -81,3 +81,21 @@
     font-size: 1rem;
     margin-bottom: 32px;
 }
+.banner-image{
+    width: 100%;
+}
+
+/* responsive media query */
+
+@media screen and (max-width:576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+
+    }
+    .Brand{
+        font-size: 2rem;
+    }
+    .banner-title{
+        font-size: 3rem;
+    }
+}

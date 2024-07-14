@@ -204,7 +204,8 @@ main > section{
     .banner-title{
         font-size: 3rem;
     }
-    .team-image-container{
+    .team-image-container,
+    .facts-container{
         grid-template-columns: 1fr;
     }
     .our-features {
@@ -213,6 +214,18 @@ main > section{
     }
     .feature-description{
         text-align: justify;
+        margin: auto 10px;
+        margin-bottom: 20px;
+    }
+    .facts-container{
+        justify-items: center;
+        gap: 24px;
+        margin-top: 50px;
+    }
+    .facts-description,
+    .facts-title{
+        margin: auto 10px;
+        margin-bottom: 10px;
     }
 }
 

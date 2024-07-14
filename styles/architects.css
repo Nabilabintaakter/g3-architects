@@ -240,5 +240,17 @@ main > section{
     .our-features {
         margin: 50px auto;
     }
+    .facts-container{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        gap: 10px;
+        margin-top: 50px;
+    }
+    .facts-description,
+    .facts-title {
+        max-width: 100vw;
+        margin: auto 20px;
+        margin-bottom: 10px;
+    }
     
 }

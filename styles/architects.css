@@ -159,14 +159,25 @@ main > section{
 /* responsive media query */
 
 @media screen and (max-width:576px) {
-    .navbar, .nav-links{
+    .navbar, 
+    .nav-links,
+    .teams{
         flex-direction: column;
-
     }
     .Brand{
         font-size: 2rem;
     }
     .banner-title{
         font-size: 3rem;
+    }
+    .team-image-container{
+        grid-template-columns: 1fr;
+    }
+    .our-features {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .feature-description{
+        text-align: justify;
     }
 }

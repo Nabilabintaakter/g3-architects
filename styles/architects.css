@@ -23,6 +23,9 @@
 .dark-03{
     color: #727272;
 }
+.orange{
+    color: #FF900E;
+}
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
 }
@@ -36,6 +39,13 @@
     font-size: 1.25rem;
     border-radius: 8px;
     border: none;
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 130px;
 }
   
 
@@ -84,6 +94,67 @@
 .banner-image{
     width: 100%;
 }
+
+/* features related styles */
+
+.teams{
+    align-items: center;
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.our-features{
+    margin-left: 73px;
+    max-width: 537px;
+}
+
+#Quick-list{
+    font-weight: 500;
+}
+
+#of-Our{
+    font-weight: 700;
+}
+
+#Features{
+    font-weight: 700;
+}
+.feature-title{
+    font-size: 2.8rem;
+    margin-bottom: 24px;
+}
+
+.feature-description{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsive media query */
 

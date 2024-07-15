@@ -158,6 +158,8 @@ main > section{
     border: none;
     width: 340px;
     height: 190px;
+    margin-left: -92px;
+    margin-top: -123px;
 }
 .btn-exp h3{
     font-weight: 700;
@@ -250,7 +252,8 @@ main > section{
 @media screen and (max-width:576px) {
     .navbar, 
     .nav-links,
-    .teams{
+    .teams,
+    .enjoy{
         flex-direction: column;
     }
     .Brand{
@@ -273,6 +276,13 @@ main > section{
         margin: auto 10px;
         margin-bottom: 20px;
     }
+    .architect img{
+        width: 100%;
+    }
+    .btn-exp{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
     .facts-container{
         justify-items: center;
         gap: 24px;
@@ -294,11 +304,16 @@ main > section{
 /* for medium devices */
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams{
+    .teams,
+    .enjoy{
         flex-direction: column;
     }
     .our-features {
         margin: 50px auto;
+    }
+    .btn-exp{
+        margin-top: 20px;
+        margin-left: 20px;
     }
     .facts-container{
         grid-template-columns: repeat(2,1fr);
